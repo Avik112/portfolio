@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avik Ghatak | Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Canvas for Animation -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Floating Side Menu -->
+  <div id="side-menu">
+    <a href="#home">🏠</a>
+    <a href="#about">👤</a>
+    <a href="#education">🎓</a>
+    <a href="#projects">💻</a>
+    <a href="#skills">⚡</a>
+    <a href="#contact">📩</a>
+    <div class="toggle-container">
+    <span class="mode-icon">🌙</span>
+    <label class="switch">
+      <input type="checkbox" id="mode-toggle">
+      <span class="slider round"></span>
+    </label>
+    <span class="mode-icon">☀️</span>
+  </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header>
+    <nav>
+
+      <h1>Avik Ghatak</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <img src="avik passportsize pic.jpg" alt="Avik Ghatak" class="profile-pic">
+    <h2>Hello, I'm Avik 👋</h2>
+    <p>Software Engineer | Full Stack Developer | Problem Solver</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am <b>Avik Ghatak</b>, <b>21 years old</b>, from <b>Kolaghat, East Midnapore, West Bengal</b>.  
+      I am a final-year B.Tech Computer Science student at the University of Engineering and Management, Kolkata.  
+      I specialize in Full Stack Development, Data Structures & Algorithms, Object-Oriented Programming, and Database Management Systems.  
+      I enjoy building scalable software solutions, solving challenging problems, and learning cutting-edge technologies.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-card">
+      <h3>B.Tech CSE – University of Engineering and Management, Kolkata (2022–2026)</h3>
+      <p>CGPA: 8.11 | Focus: Advanced Data Structures, OOPS, DBMS, Software Development.  
+      Participated in coding competitions and tech fests.</p>
+    </div>
+    <div class="edu-card">
+      <h3>Higher Secondary (XII) – Kola Union High School (2021–2022)</h3>
+      <p>Score: 81% | Focus: Science and Mathematics stream with strong foundation in logical problem solving.</p>
+    </div>
+    <div class="edu-card">
+      <h3>Secondary (X) – Kola Union High School (2019–2020)</h3>
+      <p>Score: 73% | Foundation in basics of Science, Math, and Computer Skills.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Agoalstore – Football Merchandise</h3>
+      <p>
+        Developed a responsive eCommerce platform for 150+ items with secure login, cart, and payment features.  
+        Technologies: HTML, CSS, JavaScript, PHP, MySQL. Reduced load time by 25% and improved UX.
+      </p>
+      <a href="https://agoalstore.rf.gd/?i=1/" target="_blank">Live</a> | 
+      <a href="https://github.com/Avik112/agoalstore-website" target="_blank">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Plant Leaf Disease Detection</h3>
+      <p>
+        Built a CNN-based model to classify potato leaf diseases with 97% accuracy.  
+        Frontend integrated using FastAPI and JavaScript. Enabled real-time image upload with confidence score.
+      </p>
+      <a href="https://github.com/Avik112/plant-leaf-disease-detector" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <!-- Coding & Web Development Skills -->
+    <div class="skill-category">
+      <h3>Coding & Web Development</h3>
+      <div class="skill">
+        <span>Java</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Python</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>C</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <span>HTML & CSS</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:95%"></div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>React</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <span>PHP</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:70%"></div></div>
+      </div>
+      <div class="skill">
+        <span>MySQL</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div>
+      </div>
+    </div>
+
+    <!-- CS Fundamentals -->
+    <div class="skill-category">
+      <h3>Computer Science Fundamentals</h3>
+      <div class="skill">
+        <span>Data Structures & Algorithms</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Object-Oriented Programming (OOPS)</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Operating Systems</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Database Management Systems (DBMS)</span>
+        <div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div>
+      </div>
+    </div>
+
+ <!-- Soft Skills -->
+<div class="skill-category">
+  <h3>Soft Skills</h3>
+  <div class="soft-skills">
+    <div class="soft-skill">
+      <div class="soft-skill-circle" style="--percentage:90;"></div>
+      <span>Communication</span>
+    </div>
+    <div class="soft-skill">
+      <div class="soft-skill-circle" style="--percentage:85;"></div>
+      <span>Teamwork</span>
+    </div>
+    <div class="soft-skill">
+      <div class="soft-skill-circle" style="--percentage:80;"></div>
+      <span>Time Management</span>
+    </div>
+    <div class="soft-skill">
+      <div class="soft-skill-circle" style="--percentage:85;"></div>
+      <span>Problem Solving</span>
+    </div>
+    <div class="soft-skill">
+      <div class="soft-skill-circle" style="--percentage:80;"></div>
+      <span>Adaptability</span>
+    </div>
+  </div>
+</div>
+
+
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="cert-card">
+      <h3>Web Development Training (InternShala)</h3>
+      <p>Learned frontend and backend web development, including HTML, CSS, JavaScript, PHP, and MySQL.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Data Science in Healthcare (LinkedIn Learning)</h3>
+      <p>Applied data analysis techniques in healthcare projects, working with Python and visualization tools.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Foundations of Cybersecurity (Coursera)</h3>
+      <p>Gained knowledge of cybersecurity principles, network security, and threat mitigation strategies.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Deloitte Technology Job Simulation (Forage)</h3>
+      <p>Experienced real-world IT tasks and problem-solving in a corporate simulation environment.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Data Visualization by TATA (Forage)</h3>
+      <p>Built interactive dashboards to convert raw data into actionable insights using visualization tools.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Introduction to Large Language Models (Google Cloud)</h3>
+      <p>Learned fundamentals of LLMs and their applications in NLP tasks.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Introduction to Generative AI (Google Cloud)</h3>
+      <p>Gained knowledge about generative AI models, including image and text generation.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:avikofficialghatak@gmail.com">avikofficialghatak@gmail.com</a></p>
+    <p>Phone: +91-8116966036</p>
+    <p>
+      <a href="https://www.linkedin.com/in/avik-ghatak-26a367251" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Avik112" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Avik Ghatak. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
